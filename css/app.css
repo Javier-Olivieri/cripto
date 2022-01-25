@@ -48,6 +48,11 @@ input[type="submit"]{
     text-align: center;
 }
 
+.gracias {
+    color: white;
+}
+
+
 .resultado {
     color: white;
 
@@ -90,6 +95,25 @@ p.precio{
     display: inline-block;
     -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
     animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.gracias {
+    color:  white;
+    display: flex;
+    justify-content:center;
+    margin-top: 30px;
+}
+
+.footer_social a {
+  color: white;
+  font-size: 25px;
+
+
+}
+
+.footer_social {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .spinner .bounce1 {
